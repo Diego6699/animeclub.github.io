@@ -1,0 +1,49 @@
+.modal-lateral {
+    width: 250px;
+    position: fixed;
+    color: white;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+    overflow: auto;
+    ul {
+        list-style: none;
+        li {
+            font-weight: bold;
+            font-size: 13px;
+            padding: 10px 0 10px 30px;
+            &:hover {
+                background-color: rgb(78, 77, 77);
+            }
+        }
+        .secao-lateral {
+            text-align: center;
+            font-size: 1em;
+            text-transform: uppercase;
+            .login {
+                text-align: center;
+                margin: 15px 30px;
+                color: rgb(58, 149, 228);
+                padding: 11px;
+                text-transform: uppercase;
+                border: 1px solid rgb(58, 149, 228);
+            }
+        }
+    }
+}
+
+
+
+.rodape {
+    color: grey;
+    font-size: 12px;
+}
+
+.lateral .fa-house,
+.lateral .fa-compass
+.lateral .fa-scissors{
+    background-color: transparent;
+    color: white;
+}
+#btn-lateral {
+    padding: 10px;
+}

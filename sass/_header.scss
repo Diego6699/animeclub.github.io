@@ -1,0 +1,69 @@
+/*cabecalho*/
+.header{
+    padding: 0 20px;
+    height: 9vh;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        .fa-bars {
+            background-color: transparent;
+            color: white;
+        }
+        img {
+            padding-left: 30px;
+            background-color: transparent;
+            width: 150px;
+        }
+    }
+    .search-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        input {
+            border: 1px solid rgb(78, 78, 78);
+            width: 40vw;
+            height: 100%;
+            background-color: black;
+            color: white;
+        }
+        img {
+            background-color: transparent;
+            width: 100px;
+        }
+        .fa-magnifying-glass {
+            color: white;
+            border-right: 1px solid rgb(78, 78, 78);
+            border-bottom: 1px solid rgb(78, 78, 78);
+            border-top: 1px solid rgb(78, 78, 78);
+            padding: 11px;
+        }
+    }
+    .perfil {
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        .fa-th-list{
+            color: white;
+            background-color: transparent;
+            padding-right: 30px;
+        }
+        .fa-ellipsis-vertical {
+            color: white;
+            background-color: transparent;
+            padding-right: 30px;
+        }
+        .login {
+            background-color: transparent;
+            color: rgb(58, 149, 228);
+            padding: 11px;
+            text-transform: uppercase;
+            border: 1px solid rgb(58, 149, 228);
+        }
+    }
+}

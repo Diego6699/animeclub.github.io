@@ -1,0 +1,30 @@
+.modal-container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    .modal {
+        min-width: 300px;
+        width: 60%;
+    }
+}
+.modal-container-lateral{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+    display: none;
+    .modal-lateral {
+        min-width: 100px;
+        width: 20vw;
+    }
+}

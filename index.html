@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        
+        $(document).ready(function () {
+            //imagem
+            $(".imagem1").click(function () {
+                $('div[id="video1"]').addClass('mostrar');
+            });
+            $(".imagem2").click(function () {
+                $('div[id="video2"]').addClass('mostrar');
+            });
+            $(".imagem3").click(function () {
+                $('div[id="video3"]').addClass('mostrar');
+            });
+            $(".imagem4").click(function () {
+                $('div[id="video4"]').addClass('mostrar');
+            });
+            $(".imagem5").click(function () {
+                $('div[id="video5"]').addClass('mostrar');
+            });
+            $(".imagem6").click(function () {
+                $('div[id="video6"]').addClass('mostrar');
+            });
+            $(".imagem7").click(function () {
+                $('div[id="video7"]').addClass('mostrar');
+            });
+            $(".imagem8").click(function () {
+                $('div[id="video8"]').addClass('mostrar');
+            });
+            $(".imagem9").click(function () {
+                $('div[id="video9"]').addClass('mostrar');
+            });
+            $(".imagem10").click(function () {
+                $('div[id="video10"]').addClass('mostrar');
+            });
+            $(".imagem11").click(function () {
+                $('div[id="video11"]').addClass('mostrar');
+            });
+            $(".imagem12").click(function () {
+                $('div[id="video12"]').addClass('mostrar');
+            });
+            $(".imagem13").click(function () {
+                $('div[id="video13"]').addClass('mostrar');
+            });
+            $(".imagem14").click(function () {
+                $('div[id="video14"]').addClass('mostrar');
+            });
+            $(".imagem15").click(function () {
+                $('div[id="video15"]').addClass('mostrar');
+            });
+            $(".imagem16").click(function () {
+                $('div[id="video16"]').addClass('mostrar');
+            });
+            $(".modal-container").click(function () {
+                $('.modal-container').removeClass("mostrar");
+            });
+
+            //lateral
+            $("#btn-lateral").click(function () {
+                $(".modal-container-lateral").addClass("mostrar");
+            });
+            $(".modal-container-lateral").click(function () {
+                $('.modal-container-lateral').removeClass("mostrar");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <i class="fa-solid fa-bars" id="btn-lateral"></i>
+                <img src="/img/anime_club.png" alt="">
+            </div>
+            <div class="search-box">
+                <input type="search" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="perfil">
+                <i class="fa fa-th-list"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="login">
+                    <i class="fa-solid fa-user-tie"></i></i>
+                    fazer login
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="grid-container">
+        <aside>
+            <div class="modal-container-lateral">
+                <div class="modal-lateral">
+                    <ul>
+                        <span class="secao-lateral">Faça login para curtir vídeos, comentar e se inscrever.
+                            <div class="login">
+                                <i class="fa-solid fa-user-tie"></i></i>
+                                fazer login
+                            </div>
+                        </span>
+                        <li>Biblioteca</li>
+                        <li>Histórico</li>
+                        <li>Seus vídeos</li>
+                        <li>Assistir mais tarde</li>
+                        <li>Vídeos marcados com gostei</li>
+                        <li>Mostrar mais</li>
+                        <br>
+                        <hr>
+                        <br>
+                        <span class="secao-lateral">o melhor do Anime Club</span>
+                        <li>Shonen</li>
+                        <li>Shoujo</li>
+                        <li>Seinen</li>
+                        <li>Josei</li>
+                        <li>Ecchi</li>
+                        <li>Harem</li>
+                        <li>Isekai</li>
+                        <li>Mecha</li>
+                        <li>Slice of Life</li>
+                        <li>Kodomomuke</li>
+                        <li>Iyashikei</li>
+                        <br>
+                        <hr>
+                        <br>
+                        <li>Configurações</li>
+                        <li>Histórico de denuncias</li>
+                        <li>Ajuda</li>
+                        <li>Enviar feedback</li>
+                        <br>
+                        <li class="rodape">&copy; 2022 Google LLC</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <div class="videos">
+                <h1 class="secao-descricao">Em alta</h1>
+                <div class="card">
+                    <img src="./img/em alta/jujutsu-kaisen.jpg" alt='jujutsu-kaisen' class="imagem1">
+                    <div class="modal-container" id="video1">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/em aula/JUJUTSU KAISEN TRAILER OFICIAL.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/em alta/kimetsu.webp" alt="kimetsu" class="imagem2">
+                    <div class="modal-container" id="video2">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/em aula/Demon Slayer Kimetsu no Yaiba Trailer 1.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/em alta/komi-san.webp" alt="komi-san" class="imagem3">
+                    <div class="modal-container" id="video3">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/em aula/Komi-san Can-t Communicate Trailer Oficial Legendado.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/em alta/spy-vs-family.jpg" alt="psy versus family" class="imagem4">
+                    <div class="modal-container" id="video4">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/em aula/SPY x FAMILY TRAILER OFICIAL 2.mp4" controls></video>
+                    </div>
+                </div>
+                <h1 class="secao-descricao">Útimos episodios</h1>
+                <div class="card">
+                    <img src="./img/animes-recentes/tate-no-yuusha.png" alt="tate no yuusha" class="imagem5">
+                    <div class="modal-container" id="video5">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/animes-recentes/The Rising of the Shield Hero Temporada 2 TRAILER OFICIAL.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/animes-recentes/kakkou-no-iinazuke-large.webp" alt="kakkou-no-iinazuke-large" class="imagem6">
+                    <div class="modal-container" id="video6">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/animes-recentes/Kakkou no IInazuke -trailer 2-. Anime estreia em 2022.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/animes-recentes/honzuki_teaser_logo.jpg" alt="honzuki" class="imagem7">
+                    <div class="modal-container" id="video7">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/animes-recentes/Honzuki no Gekokujou - 3ª Temporada -trailer 2-. Continuação estreia em Abril de 2022.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/animes-recentes/data-alive-4.jpg" alt="date alive 4" class="imagem8">
+                    <div class="modal-container" id="video8">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/animes-recentes/Date A Live IV OFFICIAL TRAILER.mp4" controls></video>
+                    </div>
+                </div>
+                <h1 class="secao-descricao">Animes Recentes</h1>
+                <div class="card">
+                    <img src="./img/ultimos-episodios/one-piece.jpg" alt="one piece" class="imagem9">
+                    <div class="modal-container" id="video9">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/ultimos-episodios/One Piece Wano Arc OFFICIAL PREVIEW.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/ultimos-episodios/boruto.jpg" alt="Boruto" class="imagem10">
+                    <div class="modal-container" id="video10">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/ultimos-episodios/boruto.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/ultimos-episodios/yuusha-yamemasu.jpg" alt="yuusha yamemasu" class="imagem11">
+                    <div class="modal-container" id="video11">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/ultimos-episodios/Yuusha- Yamemasu - Official Trailer 2 AniTV.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/animes-recentes/tate-no-yuusha.png" alt="tate no yuusha" class="imagem12">
+                    <div class="modal-container" id="video12">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/animes-recentes/The Rising of the Shield Hero Temporada 2 TRAILER OFICIAL.mp4" controls></video>
+                    </div>
+                </div>
+                <h1 class="secao-descricao">Cartoons</h1>
+                <div class="card">
+                    <img src="./img/cartoon/luca.webp" alt="luca" class="imagem13">
+                    <div class="modal-container" id="video13">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/cartoon/Disney and Pixar’s Luca Official Trailer Disney-.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/cartoon/red-crescer-e-um-fera.jpg" alt="red crescer e um fera" class="imagem14">
+                    <div class="modal-container" id="video14">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/cartoon/Red - Crescer é uma Fera Trailer Dublado Disney-.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/cartoon/encanto-2021.webp" alt="encanto" class="imagem15">
+                    <div class="modal-container" id="video15">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="video/cartoon/Encanto Trailer Oficial Dublado.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/cartoon/scrat.jpg" alt="scrat" class="imagem16">
+                    <div class="modal-container" id="video16">
+                        <span id="btn-video"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modal" src="./video/cartoon/A Era do Gelo Histórias do Scrat Trailer Oficial Disney-.mp4" controls></video>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
